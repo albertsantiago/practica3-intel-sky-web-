@@ -8,51 +8,53 @@ and open the template in the editor.
     Author     : 00140126
 */
 
-#cabecera{        
-font-family: Forte;
-font-size: 40px;
-text-align: center;
+#cabecera{      
+    /*Aplicando tipo, alineacion y tamaño de letra a la cabecera*/
+    font-family: Forte;
+    font-size: 40px;
+    text-align: center;
 }
 
 ul li {  
-list-style-type: none;
-background: #0040FF;
-display: inline;
-font-size: 20px;
-font-weight: bold;
-padding: 10px;
-border-radius: 7px;
-color:
-    
+    /*Agregando colores a la barra de menu*/
+    list-style-type: none;
+    background: #0040FF;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    color:#A9F5F2;
+
 }
 
 #Menu  {
-    
+/*Centrando la barra de menu*/
     text-align: center;
     font-family: magnets;
     font-size: 26px;
 }
-   
-    #cuerpo {
-        text-align: center;
-        font-family: magneto;
-        font-size: 26px;
-           
-    }
-  #pie  {
-      
- background: #013ADF;
-  text-align: center;
-  font-family: Berlin Sans FB;
+
+#cuerpo {
+    text-align: center;
+    font-family: magneto;
+    font-size: 26px;
+
+}
+#pie  {
+
+    background: #013ADF;
+    text-align: center;
+    font-family: Berlin Sans FB;
     font-size: 15px;
-       padding: 10px;
-     border-radius: 8px;
-    
+    padding: 10px;
+    border-radius: 8px;
+
 }      
 
 a:hover { 
-color: white;
-font-size: 21px;
+    color: white;
+    font-size: 21px;
 
 }
 
@@ -60,17 +62,55 @@ a{
     text-decoration: none;
     background: #013ADF;
 }
-form {
+form{
     /*centrando el formulario y poniendo borde*/
     margin: 0 auto;
-    width: 500px;
+    width: 600px;
     padding: 1em;
     border: 1px solid #000;
     border-radius: 5px;
+    background: white;
 }
 
-for div{
+form div{
     margin-top: 1em;
 }
-        
-    
+
+a:link {
+    color:#F8FBEF
+}
+
+a:visited {
+    color: #F8FBEF
+}
+a:active {
+    color:#F8FBEF
+}
+
+label{
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input, textarea { 
+    font: 1em Arial;
+    width:300px;
+}
+
+input:focus, textarea:focus{
+    border-color: red;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+}
+
+#fondo{
+    background: #013ADF;
+}
